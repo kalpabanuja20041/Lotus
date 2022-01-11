@@ -1,7 +1,7 @@
 {
       "name": "Lotus",
       "description": " world best telegram group helper is Lotus 🇱🇰",
-      "logo": "https://telegra.ph/file/3284dfc150cc72ed40688.jpg",
+      "logo": "https://telegra.ph/file/6c694ab72ff9cf1f0e488.jpg",
       "keywords": [
          "telegram",
          "group",
@@ -49,7 +49,7 @@
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "12384281"
+         "value": 2121479668""
       },
       "OWNER_USERNAME": {
          "description": "Your username without the @",
