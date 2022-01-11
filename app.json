@@ -3,10 +3,10 @@
       "description": " world best telegram group helper is Lotus 🇱🇰",
       "logo": "https://telegra.ph/file/6c694ab72ff9cf1f0e488.jpg",
       "keywords": [
-         "telegram",
-         "group",
-         "manager",
-         "ef_norm"
+         "bot",
+         "group ",
+         " helper",
+         "new "
       ],   
    "repository": "https://github.com/neth1841/Lotus",
    "addons": [
@@ -148,12 +148,12 @@
       }
    },
    "keywords": [
-      "telegram",
-      "anime",
+      "helper",
+      "bot",
       "group",
-      "manager",
-      "daisy"
+      "new",
+      
    ],
-   "name": "Norm",
+   "name": "Lotus ",
    "repository": "https://github.com/neth1841/Lotus"
 }
