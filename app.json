@@ -1,159 +1,300 @@
 {
-      "name": "Lotus",
-      "description": " world best telegram group helper is Lotus 🇱🇰",
-      "logo": "https://telegra.ph/file/6c694ab72ff9cf1f0e488.jpg",
-      "keywords": [
-         "bot",
-         "group ",
-         " helper",
-         "new "
-      ],   
-   "repository": "https://github.com/neth1841/Lotus",
-   "addons": [
-      {
-         "options": {
-            "version": "12"
-         },
-         "plan": "heroku-postgresql"
-      }
-   ],
-   "buildpacks": [
-    {
-      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-    },
-    {
-      "url": "heroku/python"
-    }     
-  ],      
-   "env": {
-      "TOKEN": {
-         "description": "Your bot token. Get one from @BotFather duh",
-         "required": true,
-         "value": "5029189708:AAEsPohdF8UjQLIjc8NsMdPpSe5aON5jql8"
-      },
-      "API_ID": {
-         "description": "Get API_ID from my.telegram.org, used for telethon based modules.",
-         "required": true,
-         "value": "12384281"
-      },
-      "API_HASH": {
-         "description": "Get API_HASH from my.telegram.org, used for telethon based modules.",
-         "required": true,
-         "value": "83e5ebe5-d96d-4b2f-baaa-783c07aa1e3d"
-      },    
-      "DB_URI": {
-         "description": "Your postgres sql db, empty this field if you dont have one.",
-         "required": false,
-         "value": "sqldbtype://username:pw@hostname:port/db_name"
-      },      
-      "OWNER_ID": {
-         "description": "Your user ID as an integer.",
-         "required": true,
-         "value": 2121479668""
-      },
-      "OWNER_USERNAME": {
-         "description": "Your username without the @",
-         "value": "Nethmal100"
-      },
-      "SUPPORT_CHAT": {
-         "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: NBOT_TEAM . If this ever points to saitama support than consider you made an enemy.",
-         "required": true,
-         "value": "NBOT_TEAM"
-      },
-      "EVENT_LOGS": {
-         "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
-         "required": true,
-         "value": "-1001764722908"
-      },
-      "JOIN_LOGGER": {
-         "description": "A channel where bot will print who added it to what group, useful during debugging or spam handling.",
-         "required": true,
-         "value": "-123456798"
-      },
-      "DEV_USERS": {
-         "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Saitama support then keep the current ID's here at they are and add yours.",
-         "required": false,
-         "value": "1141839926"
-      },
-      "SPAMWATCH_API": {
-         "description": "Spamwatch API Token, Get one from @SpamWatchBot.",
-         "required": false,
-         "value": "35BpDzMCiHpk8k6z9ksu9dNisuGOaFuS~QUsnj_dDEFu2vq~6D9UMlZ6SWRK9ghj"
-      }, 
-      "STRICT_GBAN": {
-         "description": "Enforce gbans across new groups as well as old groups. When a gbanned user talks, he will be banned.",
-         "value": "True"
-      },
-      "DRAGONS": {
-         "description": "A space separated list of user IDs who you want to assign as sudo users.",
-         "required": false,
-         "value": "1141839926"
-      },
-      "DEMONS": {
-         "description": "A space separated list of user IDs who you wanna assign as support users(gban perms only).",
-         "required": false,
-         "value": "1141839926"
-      },
-      "TIGERS": {
-         "description": "A space separated list of user IDs who you wanna assign as tiger users.",
-         "required": false,
-         "value": "1141839926"
-      },
-      "WOLVES": {
-         "description": "A space separated list of user IDs who you want to assign as whitelisted - can't be banned with your bot.",
-         "required": false,
-         "value": "1141839926"
-      },
-      "ENV": {
-         "description": "Setting this to ANYTHING will enable environment variables. Leave it as it is",
-         "value": "ANYTHING"
-      },
-      "WEBHOOK": {
-         "description": "Setting this to ANYTHING will enable webhooks. If you dont know how this works leave it as it is",
-         "required": false,
-         "value": ""
-      },
-      "PORT": {
-         "description": "Port to use for your webhooks. Better leave this as it is on heroku",
-         "required": false,
-         "value": ""
-      },
-      "URL": {
-         "description": "The Heroku App URL :-  https://<appname>.herokuapp.com/",
-         "required": false,
-         "value": ""
-      },
-      "No_LOAD": {
-         "description": "Dont load these modules cause they shit, space separation",
-         "required": false,
-         "value": "cleaner rss connection"
-      }, 
-      "BL_CHATS": {
-         "description": "List of chats you want blacklisted.",
-         "required": false,
-         "value": ""
-      },
-      "ALLOW_EXCL": {
-         "description": "Set this to True if you want ! to be a command prefix along with /. Recommended is True",
-         "value": "True"
-      },
-      "DEL_CMDS": {
-         "description": "Set this to True if you want to delete command messages from users who don't have the perms to run that command.",
-         "value": "True"
-      },      
-      "BAN_STICKER": {
-         "description": "ID of the sticker you want to use when banning people.",
-         "required": false,
-         "value": ""
-      }
-   },
-   "keywords": [
-      "helper",
-      "bot",
-      "group",
-      "new",
-      
-   ],
-   "name": "Lotus ",
-   "repository": "https://github.com/neth1841/Lotus"
+
+      "name": "Lotus",
+
+      "description": " world best telegram group helper is Lotus ??",
+
+      "logo": "https://telegra.ph/file/6c694ab72ff9cf1f0e488.jpg",
+
+      "keywords": [
+
+         "bot",
+
+         "group ",
+
+         " helper",
+
+         "new "
+
+      ],  
+
+   "repository": "https://github.com/neth1841/Lotus",
+
+   "addons": [
+
+      {
+
+         "options": {
+
+            "version": "12"
+
+         },
+
+         "plan": "heroku-postgresql"
+
+      }
+
+   ],
+
+   "buildpacks": [
+
+    {
+
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+
+    },
+
+    {
+
+      "url": "heroku/python"
+
+    }    
+
+  ],      
+
+   "env": {
+
+      "TOKEN": {
+
+         "description": "Your bot token. Get one from @BotFather duh",
+
+         "required": true,
+
+         "value": "5029189708:AAEsPohdF8UjQLIjc8NsMdPpSe5aON5jql8"
+
+      },
+
+      "API_ID": {
+
+         "description": "Get API_ID from my.telegram.org, used for telethon based modules.",
+
+         "required": true,
+
+         "value": "12384281"
+
+      },
+
+      "API_HASH": {
+
+         "description": "Get API_HASH from my.telegram.org, used for telethon based modules.",
+
+         "required": true,
+
+         "value": "83e5ebe5-d96d-4b2f-baaa-783c07aa1e3d"
+
+      },    
+
+      "DB_URI": {
+
+         "description": "Your postgres sql db, empty this field if you dont have one.",
+
+         "required": false,
+
+         "value": "sqldbtype://username:pw@hostname:port/db_name"
+
+      },      
+
+      "OWNER_ID": {
+
+         "description": "Your user ID as an integer.",
+
+         "required": true,
+
+         "value": "2121479668"
+
+      },
+
+      "OWNER_USERNAME": {
+
+         "description": "Your username without the @",
+
+         "value": "Nethmal100"
+
+      },
+
+      "SUPPORT_CHAT": {
+
+         "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: NBOT_TEAM . If this ever points to saitama support than consider you made an enemy.",
+
+         "required": true,
+
+         "value": "NBOT_TEAM"
+
+      },
+
+      "EVENT_LOGS": {
+
+         "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
+
+         "required": true,
+
+         "value": "-1001764722908"
+
+      },
+
+      "JOIN_LOGGER": {
+
+         "description": "A channel where bot will print who added it to what group, useful during debugging or spam handling.",
+
+         "required": true,
+
+         "value": "-123456798"
+
+      },
+
+      "DEV_USERS": {
+
+         "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Saitama support then keep the current ID's here at they are and add yours.",
+
+         "required": false,
+
+         "value": "1141839926"
+
+      },
+
+      "SPAMWATCH_API": {
+
+         "description": "Spamwatch API Token, Get one from @SpamWatchBot.",
+
+         "required": false,
+
+         "value": "35BpDzMCiHpk8k6z9ksu9dNisuGOaFuS~QUsnj_dDEFu2vq~6D9UMlZ6SWRK9ghj"
+
+      },
+
+      "STRICT_GBAN": {
+
+         "description": "Enforce gbans across new groups as well as old groups. When a gbanned user talks, he will be banned.",
+
+         "value": "True"
+
+      },
+
+      "DRAGONS": {
+
+         "description": "A space separated list of user IDs who you want to assign as sudo users.",
+
+         "required": false,
+
+         "value": "1141839926"
+
+      },
+
+      "DEMONS": {
+
+         "description": "A space separated list of user IDs who you wanna assign as support users(gban perms only).",
+
+         "required": false,
+
+         "value": "1141839926"
+
+      },
+
+      "TIGERS": {
+
+         "description": "A space separated list of user IDs who you wanna assign as tiger users.",
+
+         "required": false,
+
+         "value": "1141839926"
+
+      },
+
+      "WOLVES": {
+
+         "description": "A space separated list of user IDs who you want to assign as whitelisted - can't be banned with your bot.",
+
+         "required": false,
+
+         "value": "1141839926"
+
+      },
+
+      "ENV": {
+
+         "description": "Setting this to ANYTHING will enable environment variables. Leave it as it is",
+
+         "value": "ANYTHING"
+
+      },
+
+      "WEBHOOK": {
+
+         "description": "Setting this to ANYTHING will enable webhooks. If you dont know how this works leave it as it is",
+
+         "required": false,
+
+         "value": ""
+
+      },
+
+      "PORT": {
+
+         "description": "Port to use for your webhooks. Better leave this as it is on heroku",
+
+         "required": false,
+
+         "value": ""
+
+      },
+
+      "URL": {
+
+         "description": "The Heroku App URL :-  https://<appname>.herokuapp.com/",
+
+         "required": false,
+
+         "value": ""
+
+      },
+
+      "No_LOAD": {
+
+         "description": "Dont load these modules cause they shit, space separation",
+
+         "required": false,
+
+         "value": "cleaner rss connection"
+
+      },
+
+      "BL_CHATS": {
+
+         "description": "List of chats you want blacklisted.",
+
+         "required": false,
+
+         "value": ""
+
+      },
+
+      "ALLOW_EXCL": {
+
+         "description": "Set this to True if you want ! to be a command prefix along with /. Recommended is True",
+
+         "value": "True"
+
+      },
+
+      "DEL_CMDS": {
+
+         "description": "Set this to True if you want to delete command messages from users who don't have the perms to run that command.",
+
+         "value": "True"
+
+      },      
+
+      "BAN_STICKER": {
+
+         "description": "ID of the sticker you want to use when banning people.",
+
+         "required": false,
+
+         "value": ""
+
+      }
+
+   }
+
 }
+
