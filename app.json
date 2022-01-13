@@ -1,18 +1,18 @@
 {
-      "name": "Norm",
-      "description": "Modern Group Management Bot 🇱🇰",
-      "logo": "https://telegra.ph/file/3284dfc150cc72ed40688.jpg",
+      "name": "Lotus",
+      "description": "world best telegram group helper is Lotus 🇱🇰",
+      "logo": "https://telegra.ph/file/f7d50d0b375ac56d3d03f.jpg",
       "keywords": [
-         "telegram",
+         "new",
          "group",
          "manager",
-         "ef_norm"
+         "Louts"
       ],   
-   "repository": "https://github.com/TinuraD/EF-Norm",
+   "repository": "https://github.com/neth1841/Lotus",
    "addons": [
       {
          "options": {
-            "version": "12"
+            "version": "10"
          },
          "plan": "heroku-postgresql"
       }
@@ -49,31 +49,31 @@
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "1141839926"
+         "value": ""
       },
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "InukaAsith"
+         "value": "Nethmal100"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to saitama support than consider you made an enemy.",
          "required": true,
-         "value": "MyAwesomeSupportGroupGoesHere"
+         "value": ""
       },
       "EVENT_LOGS": {
          "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
          "required": true,
-         "value": "-123456798"
+         "value": ""
       },
       "JOIN_LOGGER": {
          "description": "A channel where bot will print who added it to what group, useful during debugging or spam handling.",
          "required": true,
-         "value": "-123456798"
+         "value": ""
       },
       "DEV_USERS": {
          "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Saitama support then keep the current ID's here at they are and add yours.",
          "required": false,
-         "value": "1141839926"
+         "value": ""
       },
       "SPAMWATCH_API": {
          "description": "Spamwatch API Token, Get one from @SpamWatchBot.",
@@ -148,12 +148,12 @@
       }
    },
    "keywords": [
-      "telegram",
-      "anime",
+      "new",
+      "Louts",
       "group",
       "manager",
-      "daisy"
+
    ],
-   "name": "Norm",
-   "repository": "https://github.com/TinuraD/EF-Norm"
+   "name": "Louts",
+   "repository": "https://github.com/neth1841/Louts"
 }
