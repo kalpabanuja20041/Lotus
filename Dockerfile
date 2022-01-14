@@ -64,12 +64,12 @@ RUN apt update && apt upgrade -y && \
 # Pypi package Repo upgrade
 RUN pip3 install --upgrade pip setuptools
 
-# Copy Python Requirements to /root/ef_norm
+# Copy Python Requirements to /root/Louts
 RUN git clone -b main https://github.com/neth1841/Lotus/Lotus
 WORKDIR /root/Lotus
 
-#Copy config file to /root/ef_norm/ef_norm
-COPY ./ef_norm/sample_config.py ./ef_norm/config.py* /root/ef_norm/ef_norm/
+#Copy config file to /root/Louts/Louts
+COPY ./Lotus/sample_config.py ./Lotus/config.py* /root/Lotus/Lotus/
 
 ENV PATH="/home/bot/bin:$PATH"
 
@@ -78,4 +78,4 @@ COPY requirements.txt /app/
 RUN pip install -r requirements.txt
 
 # Starting Worker
-CMD ["python3","-m","ef_norm"]
+CMD ["python3","-m","Louts"]
